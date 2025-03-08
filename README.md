@@ -13,7 +13,8 @@ This project is ideal for anyone looking for a quick and efficient way to conver
 How to Access the Project
 Follow these steps to access and run the Currency Converter project:
 1. Clone the Repository
-2. Navigate to the Project Directory
-3. Open the Project in a Code Editor
-4. Run the Project
-5. Enjoy the Currency Converter! 🎉
+2. keep all files in same project directory. 
+3. Navigate to the Project Directory
+4. Open the Project in a Code Editor
+5. Run the Project
+6. Enjoy the Currency Converter! 🎉
