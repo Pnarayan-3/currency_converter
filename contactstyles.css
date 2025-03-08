@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    font-family: 'Noto Sans', sans-serif;
+        font-weight: 900;
+        display: flex;
+        font-size: 20px;
+        background-color: rgb(142, 217, 218);
+        padding: 23px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+    transition: all;
+    transition-duration: 500ms;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(157, 20, 249);
+}
+/* nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a.active {
+    text-decoration: underline;
+} */
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#contact-form {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background-color: rgb(136, 127, 255);
+    color: white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+footer {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+/* footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} */
