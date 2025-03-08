@@ -3,11 +3,11 @@ About The Project
 Currency Converter is a web-based application that allows users to convert currencies in real-time. Built using HTML, CSS, and JavaScript, this project integrates an exchange rate API to fetch the latest conversion rates, ensuring accuracy and reliability.
 
 Features:
-Live currency exchange rate conversion
-User-friendly and responsive design
-Supports multiple currencies
-API integration for real-time updates
-Simple and intuitive interface
+1. Live currency exchange rate conversion
+2. User-friendly and responsive design
+3. Supports multiple currencies
+4. API integration for real-time updates
+5. Simple and intuitive interface
 This project is ideal for anyone looking for a quick and efficient way to convert currencies on the web.
 
 How to Access the Project
