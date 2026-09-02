@@ -1,7 +1,7 @@
 
 const populate = async (value, currency) => {
     let myStr = ""
-    url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_A2W6FGIzKwdckr4bbJqT6JLlg8T2e6uJx5GwbObK&base_currency=" + currency
+    const url = "https://api.currencyapi.com/v3/latest?apikey=cur_live_A2W6FGIzKwdckr4bbJqT6JLlg8T2e6uJx5GwbObK&base_currency=" + currency
     let response = await fetch(url)
     let rjson = await response.json()
     document.querySelector(".output").style.display = "block"
