@@ -1,0 +1,62 @@
+name: Currency Converter CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+
+jobs:
+  basic-checks:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check repository files
+        run: |
+          echo "Checking Project Files..."
+
+          test -f index.html
+          test -f style.css
+          test -f script.js
+          test -f README.md
+
+          echo "Required files found successfully."
+
+      - name: Check javascript syntax
+        run: |
+          echo "Checking JavaScript files..."
+
+          node --check script.js
+          node --check main.js
+          node --check contactscript.js
+          npx eslint script.js
+
+          echo "JavaScript syntax check completed successfully." 
+      
+      - name: Check HTML syntax
+        run: |
+          echo "checking HTML files..."
+          
+          npx htmlhint "*.html"
+
+          echo "HTML syntax check completed successfully."
+
+      - name: Check CSS syntax
+        run: |
+          echo "checking CSS files..."
+
+          npx stylelint "**/*.css"
+
+          echo "CSS syntax check completed successfully."
+
+      
+
+
